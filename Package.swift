@@ -40,13 +40,9 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver", from: "1.9.0"),
-        .package(url: "https://github.com/passepartoutvpn/openssl-apple", from: "3.2.105"),
-//        .package(url: "https://git.zx2c4.com/wireguard-apple", .exact: Version("1.0.15-26")),
-//        .package(url: "https://github.com/passepartoutvpn/wireguard-apple", exact: Version("1.0.17")),
-        .package(url: "https://github.com/passepartoutvpn/wireguard-apple", revision: "b79f0f150356d8200a64922ecf041dd020140aa0")
-//        .package(url: "https://github.com/passepartoutvpn/wireguard-apple", branch: "develop")
-//        .package(name: "WireGuardKit", path: "../wireguard-apple")
+        .package(url: "https://github.com/SwiftyBeaver/SwiftyBeaver", from: "2.1.1"),
+        .package(url: "https://github.com/passepartoutvpn/openssl-apple", from: "3.2.108"),
+        .package(url: "https://github.com/passepartoutvpn/wireguard-apple", revision: "d8bcdf22f1e75d80caac874f302dee86194bb71d")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
