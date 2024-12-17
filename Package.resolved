@@ -17,15 +17,6 @@
         "revision" : "8cba041db09596183331d123f337d0eb2e6e8e91",
         "version" : "2.1.1"
       }
-    },
-    {
-      "identity" : "wg-go-apple",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/passepartoutvpn/wg-go-apple",
-      "state" : {
-        "revision" : "860e82efaf261da37483a5f51555be83e5a79ad3",
-        "version" : "0.0.20240714"
-      }
     }
   ],
   "version" : 2
